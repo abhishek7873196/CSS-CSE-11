@@ -3,7 +3,7 @@ h2{
 }
 p{
     color:brown;
-    text-align:center;
+    font-size: 10px;
 }
 .par{
     color:turquoise;
@@ -11,3 +11,20 @@ p{
 #jk{
     color:red;
 }
+div{
+    height:200px;
+    width:200px;
+    color:red;
+    background-color:cadetblue;
+    text-align:center;
+    align-content:center;
+    margin:100px;
+    border: 1px solid red;
+}
+h3{
+    color:rgb(111, 16, 201);
+    border: 3px solid black;
+    text-align:center;
+    font-size:25px;
+}
+

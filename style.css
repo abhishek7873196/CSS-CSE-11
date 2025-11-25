@@ -11,7 +11,7 @@ p{
 #jk{
     color:red;
 }
-div{
+/* div{
     height:200px;
     width:200px;
     color:red;
@@ -20,11 +20,43 @@ div{
     align-content:center;
     margin:100px;
     border: 1px solid red;
-}
+} */
 h3{
     color:rgb(111, 16, 201);
     border: 3px solid black;
     text-align:center;
     font-size:25px;
 }
+.jk2
+{
+    display: inline;
+}
+.box{
+padding:15px;
+height:50px;
+display:inline-block;
+text-align:center;
+margin:10px;
 
+}
+.AS{
+    color:black;
+}
+.box1
+{
+background-color: #b7be25;
+height:200px;
+width:100px;
+}
+.box2
+{
+    background-color: #e21d5c;
+    height:200px;
+    width:100px;
+}
+.box3
+{
+     background-color: #b8e2f2;
+    height:200px;
+    width:100px;
+}

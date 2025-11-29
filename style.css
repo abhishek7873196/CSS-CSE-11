@@ -1,4 +1,4 @@
-h2{
+/* h2{
     color:aqua;
 }
 p{
@@ -21,7 +21,7 @@ p{
     margin:100px;
     border: 1px solid red;
 } */
-h3{
+/* h3{
     color:rgb(111, 16, 201);
     border: 3px solid black;
     text-align:center;
@@ -59,4 +59,30 @@ width:100px;
      background-color: #b8e2f2;
     height:200px;
     width:100px;
+} */.container{
+    display:flex;
+    height:600px;
+    width:1000px;
+    background-color:aqua;
+    border:1px solid black;
+    /* flex-direction:column-reverse; */
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    gap: 10px;
+}
+.item{
+    height:100px;
+    width:200px;
+    border:1px solid black;
+    background-color:chocolate;
+    text-align:center;
+    align-content:center;
+    flex-grow:1;
+}
+.item2{
+    order:-1;
+    flex-grow:2;
+    align-self:flex-end;
 }
